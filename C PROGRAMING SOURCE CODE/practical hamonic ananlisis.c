@@ -10,13 +10,9 @@ void loader(void);
 int main()
 {
 
-
-
     loader();
     system("cls");
     printf("\n\n Content Loaded Succesfully\n\n");
-
-
 
 
     int num_x,sum,i,j,number;
@@ -117,8 +113,6 @@ int main()
         int number_for_exit;
         printf("Enter 1 for exit:-->");
         scanf("%d",&number_for_exit);
-
-
     }
 
     if(number_harmonics==2)
@@ -224,15 +218,9 @@ int main()
         }
         printf("Enter 1 for exit:-->");
         scanf("%d",&number_for_exit);
-
-
-
     }
 
-
 }
-
-
 
 void loader()
 {
